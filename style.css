@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+    background-image:url(mixto-quente.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% ;
+  width:100%;
+  height:100%;
+  padding:0;margin:0;
+}
+
+#mq {
+    color:white;
+
+    
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width:100%;
+    }
+
+    #mq .content {width:100%;
+        height: 40vw;
+        opacity: 1;
+       
+    }
+
+#m {
+    border-left:13px solid #fff;
+    border-right:13px solid #fff;
+    border-bottom:13px solid #fff;
+    margin-left:3.3vw;margin-top:10vw;
+    width:21.5vw;
+    height:19.5vw;
+    float:left;
+    overflow:hidden;
+    z-index:1;
+
+}
+#m:before {
+    content:"";
+    width:14.25vw;height:6.5vw;
+    border-bottom:13px solid white;
+    float:left;
+    transform: rotate(29deg);
+    margin-top:-3vw;
+    opacitxy: 0.5;
+    z-index:2;
+    position:relative;
+    margin-left:0vw;
+
+}
+#m:after:before {content:"change";}
+
+#m:after {
+    content:"";
+    width:12.4vw;height:100px;
+    border-top:13px solid white;
+    backxground-color:red; 
+    float:right;
+    transform: rotate(148deg);
+    margin-right:0.55vw;
+    margin-top:-7.356vw;
+    opacixty: 0.5;
+    z-index:3;
+
+}
+
+  
+
+#i {
+    border:13px solid #fff;
+    float:left;
+    margin-left:2vw;margin-top:10vw;
+    height:18.6vw;
+    width:8.3vw;
+}
+
+#x {
+    width:31vw;height:36vw;
+    float:left;
+    margin-left:-80px;
+    border:1px solid;
+}
+
+#t {
+    border-top:13px solid #fff;
+    border-left:13px solid #fff;
+    border-right:13px solid #fff;
+    float:left;
+    position:relative;
+    left:-10vw;
+    top:9.3vw;
+    width:16.4vw;
+    height:6.5vw;
+}
+#t:before,#t::after {
+    content:"";}
+
+#t:before {
+    border-top:13px solid white;
+    border-right:13px solid white;
+    width:4.5vw;
+    height:12vw;
+    margin-top:6.5vw;
+    margin-left:-0.9vw;
+    float:left;
+}
+#t:after {
+    border-top:13px solid white;
+    border-left:13px solid white;
+    width:4.8vw;
+    height:12vw;
+    margin-top:6.5vw;
+    margin-right:-0.83vw;
+    float:right;
+}
+
+
+#o {
+    width:22.5vw;
+    height:22vw;
+    border:13px solid white;
+    float:left;
+    border-radius: 50%;
+    margin-left:8.5vw;
+    margin-top:0.8vw;
+}
